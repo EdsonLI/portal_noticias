@@ -1,0 +1,19 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "Site de Notícias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdsonLI/portal_noticias.git"
+  },
+  "author": "Edson Luis Isele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdsonLI/portal_noticias/issues"
+  },
+  "homepage": "https://github.com/EdsonLI/portal_noticias#readme"
+}
