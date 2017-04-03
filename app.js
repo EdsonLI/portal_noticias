@@ -1,11 +1,18 @@
 var express = require('express');
 var app = express();
 
-app.get('/', function(req, res) {
-    res.send('<html><body>Portal de Notícias</body></html>')
-});
+app.set('view engine', 'ejs');
+
+/*app.get('/tecnologia', function(req, res) {
+    res.send('<html><body>Notícias de Tecnologia</body></html>');
+});*/
 app.get('/tecnologia', function(req, res) {
-    res.send('<html><body>Notícias de Tecnologia</body></html>')
+    //res.render('secao/tecnologia/');
+    res.render('secao/tecnologia');
+});
+
+app.get('/', function(req, res) {
+    res.send('<html><body>Portal de Notícias</body></html>');
 });
 
 app.listen(3000, function() {
