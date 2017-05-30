@@ -1,0 +1,6 @@
+cd C:\Program Files (x86)\Ampps\mysql\bin
+mysql -u root
+show databases;
+create database portal_noticias;
+show databases;
+use portal_noticias;

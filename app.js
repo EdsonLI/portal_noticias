@@ -1,7 +1,7 @@
-/*var express = require('express');
-var msg = require('./mod_teste');
+/*var express = require('express');*/
+//var msg = require('./mod_teste');
 
-var app = express();
+/*var app = express();
 
 app.set('view engine', 'ejs');*/
 
@@ -46,4 +46,4 @@ app.listen(3000, function() {
     //console.info(msg());
 });
 
-/* teste  teste */
+/* teste teste teste teste */

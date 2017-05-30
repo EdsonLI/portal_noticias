@@ -1,3 +1,5 @@
+/* Configurações gerais da aplicação */
+
 var express = require('express');
 
 var app = express();
