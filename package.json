@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/EdsonLI/portal_noticias#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "consign": "^0.1.6",
     "ejs": "^2.5.6",
     "express": "^4.15.2",

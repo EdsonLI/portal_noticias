@@ -4,8 +4,8 @@ var connMySQL = function() {
       host: 'localhost',
       user: 'edi',
       password: 'edson',
-      //database: 'portal_noticias'
-      database: 'porta_noticias'
+      database: 'portal_noticias'
+      //database: 'porta_noticias'
   });
   //connection.connect();
 }
