@@ -4,13 +4,13 @@ var connMySQL = function() {
       host: 'localhost',
       user: 'edi',
       password: 'edson',
-      database: 'portal_noticias'
-      //database: 'porta_noticias'
+      //database: 'portal_noticias'
+      database: 'porta_noticias'
   });
   //connection.connect();
 }
 
 module.exports = function() {
-    console.info('autoload carregou modulo de conexao com o MySQL');
+    //console.info('autoload carregou modulo de conexao com o MySQL');
     return connMySQL;
 }
