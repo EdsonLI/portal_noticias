@@ -27,10 +27,13 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `noticias` (
-  `id_noticia` int(11) NOT NULL,
-  `titulo` varchar(100) DEFAULT NULL,
-  `noticia` text,
-  `data_criacao` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+   `id_noticia` int(11) NOT NULL,
+   `titulo` varchar(100) DEFAULT NULL,
+   `noticia` text,
+   `data_criacao` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+   `resumo` varchar(100) DEFAULT NULL,
+   `autor` varchar(30) DEFAULT NULL,
+   `data_noticia` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -44,14 +47,15 @@ ALTER TABLE `noticias`
 --
 ALTER TABLE `noticias`
   MODIFY `id_noticia` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1;
-  
+
 --
 -- Extraindo dados da tabela `noticias`
 --
 
-INSERT INTO `noticias` (`id_noticia`, `titulo`, `noticia`, `data_criacao`) VALUES
-(1, 'Titulo da noticia', 'Conteudo da noticia', '2017-06-02 21:43:45'),
-(2, 'Outra noticia', 'Conteudo da outra noticia', '2017-06-02 22:39:06');
+INSERT INTO `noticias` (`titulo`, `noticia`, `data_criacao`, `resumo`, `autor`, `data_noticia`) VALUES
+('teste', 'teste', '2017-07-04 00:58:49', 'teste para mais de 10', 'teste', '2017-07-04'),
+('Titulo', 'Texto da noticia', '2017-07-06 00:10:36', 'Resumooooo', 'Autor', '2017-07-05'),
+('Titulo teste com controllers', 'Aqui está o conteúdo do teste com controllers...', '2017-07-14 01:04:29', 'Resumo teste com controllers', 'Edson Luis Isele', '2017-07-13'),
 
 --
 -- Indexes for dumped tables
@@ -62,5 +66,3 @@ INSERT INTO `noticias` (`id_noticia`, `titulo`, `noticia`, `data_criacao`) VALUE
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
-
