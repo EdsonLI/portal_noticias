@@ -55,7 +55,7 @@ ALTER TABLE `noticias`
 INSERT INTO `noticias` (`titulo`, `noticia`, `data_criacao`, `resumo`, `autor`, `data_noticia`) VALUES
 ('teste', 'teste', '2017-07-04 00:58:49', 'teste para mais de 10', 'teste', '2017-07-04'),
 ('Titulo', 'Texto da noticia', '2017-07-06 00:10:36', 'Resumooooo', 'Autor', '2017-07-05'),
-('Titulo teste com controllers', 'Aqui está o conteúdo do teste com controllers...', '2017-07-14 01:04:29', 'Resumo teste com controllers', 'Edson Luis Isele', '2017-07-13'),
+('Titulo teste com controllers', 'Aqui está o conteúdo do teste com controllers...', '2017-07-14 01:04:29', 'Resumo teste com controllers', 'Edson Luis Isele', '2017-07-13');
 
 --
 -- Indexes for dumped tables
